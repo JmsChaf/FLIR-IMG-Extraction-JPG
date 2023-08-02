@@ -4,8 +4,6 @@ Script Written by JmsChaf
 This program was written for use with FLIR Systems Inc. (now Teledyne FLIR) A300 Camera IMG files. It exracts metadata,
 raw radience data, and converts the TIF stored in the Camera's IMG file into a JPG.
 
-~ Note ~ this program is only Windows compatible.
-
 Setup:
 Navigate to the location of the 'extract' folder in your console. Type 'pip install -r requirements.txt' to install 
 all library dependedncies. Put the raw IMG files in the 'raw' directory. The program uses relative paths, so there is
@@ -24,3 +22,7 @@ The script will produce an estimated end time for it execution every 30 files it
 have the same name as there input, so NVL_IR_H000121511.IMG will produce NVL_IR_H000121511.jpg and two 
 NVL_IR_H000121511.csv for the radience and metadata. These will be sorted into the sub directories 'meta', 'radience', and 
 'jpg'.
+
+
+~ Note ~ 
+This program is only Windows compatible.

@@ -15,8 +15,8 @@ computer to recognize it in any directory.
 Operation:
 To run the program, navigate to the scripts folder in your console, then type 'python extractscript.py'. This is extract 
 the raw radience data,image, and metadata into the results folder. The data will be sorted into folders matching the 
-directory structure in raw (see example for how data is formatted). IMG files not in a folder in raw will not be
-processed, and the program can only walk into one-layer dirs, sub directories will not be considered. 
+directory structure in raw. IMG files not in a folder in raw will not be processed, and the program can only walk 
+into one-layer dirs, sub directories will not be considered. 
 
 The script will produce an estimated end time for it execution every 30 files it processes. Files produced will
 have the same name as there input, so NVL_IR_H000121511.IMG will produce NVL_IR_H000121511.jpg and two 

@@ -14,7 +14,7 @@ computer to recognize it in any directory.
 
 Operation:
 To run the program, navigate to the scripts folder in your console, then type 'python extractscript.py'. This is extract 
-the raw radience data,image, and metadata into the results folder. The data will be sorted into folders matching the 
+the raw radience data, the image, and the IMG metadata into the results folder. The data will be sorted into folders matching the 
 directory structure in raw. IMG files not in a folder in raw will not be processed, and the program can only walk 
 into one-layer dirs, sub directories will not be considered. 
 
